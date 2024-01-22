@@ -1,0 +1,141 @@
+   68  git clone https://github.com/BYUCS235/cs235-assignments
+   69  git clone https://github.com/BYUCS235/cs235-assignments
+   70  git clone https://github.com/BYUCS235
+   71  git clone https://github.com/BYUCS235/cs235-assignments
+   72  git clone https://github.com/BYUCS235/cs235-assignments.git
+  114  git clone gh repo clone BYUCS235/cs235-assignments
+  115  git clone https://github.com/BYUCS235/cs235-assignments.git
+  376  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  377  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  378  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  379  $ brew install git
+  380  $ brew install git
+  381  brew install git
+  382  git --version
+  383  git config --global user.name "Madison Wozniak"
+  384  git config --global user.email "madisontgw@gmail.com"
+  385  git config --global core.editor "code --wait"
+  386  git config --global init.defaultBranch main
+  394  mkdir git-practice-mw
+  396  cd git-practice-mw/
+  398  git init
+  401  git status
+  402  git add file1.txt
+  403  git status
+  404  git commit -m "First commit"
+  405  git status
+  406  git log
+  415  cd git-practice-mw/
+  417  touch .gitignore
+  420  code .gitignore
+  421  code.gitignore
+  422  code .gitignore
+  423  git branch
+  424  git branch new-feature
+  425  git branch
+  426  git switch new-feature
+  427  git branch
+  429  git status
+  430  git add .
+  431  git commit -m "create file 2"
+  432  git log
+  433  code .gitignore
+  434  git switch main
+  435  git branch
+  436  git merge new-feature
+  437  git log --oneline
+  438  git branch -d new-feature
+  439  git branch
+  440  git checkout c351485
+  442  git switch -
+  451  cd git
+  452  cd git-practice-mw/
+  454  code .gitignore
+  455  code .gitignore
+  456  code .gitignore
+  457  git add .gitignore
+  458  code .gitignore
+  459  git status
+  460  git log
+  463  git
+  464  cd git-practice-mw/
+  465  git status
+  468  cd git-practice-mw/
+  469  git remote -v
+  470  git remote add origin git@github.com:madisongarccia/git-practice-mtg.git
+  471  git remote -v
+  472  git push -u origin main
+  473  git status
+  474  git add .
+  475  git comit -m "change file1"
+  476  git commit -m "change file1"
+  477  git push
+  478  git status
+  479  git pull
+  494  cd git-practice-mw/
+  496  git status
+  497  git add .
+  498  git commit
+  499  git commit -m "changed file1 and file2"
+  500  git log
+  501  cd Desktop/stat\ 386/git-practice-mw/
+  503  git status
+  504  git push
+  506  git status
+  507  git add .
+  508  git commit -m "created readme"
+  509  git push
+  510  git status
+  511  git add .
+  512  git commit -m "change formatting"
+  513  git push
+  514  touch .gitignore
+  515  code .gitignore
+  516  git add .
+  517  git commit -m "add api-keys to gitignore"
+  518  git push
+  520  git status
+  521  git add .
+  522  git commit -m "secret stuff to api-keys"
+  523  git push
+  524  git status
+  525  git branch
+  526  git branch "features"
+  527  git switch features
+  528  git log
+  530  git branch
+  532  git add .
+  533  git commit -m "add empty file"
+  534  git push
+  535  git status
+  536  git status
+  537  git add .
+  538  git commit -m "new features text"
+  539  git push origin features
+  540  git switch main
+  541  git add .
+  542  git commit -m "added anything I want"
+  543  git push
+  544  git merge features
+  545  git commit
+  546  git log
+  547  git add .
+  548  git commit -m "no new changes"
+  549  git push
+  550  git switch features
+  551  git add .
+  552  git add .
+  553  git commit -m "new text"
+  554  git push
+  555  git push features
+  556  git push origin features
+  557  git swtich main
+  558  git status
+  559  git switch main
+  560  git merge features
+  561  git add .
+  562  git commit -m "accepted the new changes"
+  563  git push
+  564  git branch -d features
+  565  git log --oneline > gitlog.txt
+  566  history | grep git > history.txt
