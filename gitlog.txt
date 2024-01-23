@@ -1,3 +1,6 @@
+1a8bbf1 Merge pull request #1 from thatrealtyguy/feature-thatrealtyguy
+047c005 Created Han_Solos_Diary.txt
+731ca3b made log and history files
 fb737b6 accepted the new changes
 35b29cd new text
 7f77b34 no new changes

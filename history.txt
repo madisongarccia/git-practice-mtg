@@ -1,8 +1,3 @@
-   68  git clone https://github.com/BYUCS235/cs235-assignments
-   69  git clone https://github.com/BYUCS235/cs235-assignments
-   70  git clone https://github.com/BYUCS235
-   71  git clone https://github.com/BYUCS235/cs235-assignments
-   72  git clone https://github.com/BYUCS235/cs235-assignments.git
   114  git clone gh repo clone BYUCS235/cs235-assignments
   115  git clone https://github.com/BYUCS235/cs235-assignments.git
   376  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -139,3 +134,25 @@
   564  git branch -d features
   565  git log --oneline > gitlog.txt
   566  history | grep git > history.txt
+  567  git add .
+  568  git commit -m "made log and history files"
+  569  git push
+  571  git branch
+  574  cd git-practice-mw/
+  576  git clone git@github.com:madisongarccia/git-practice-thatrealtyguy.git
+  579  git clone git@github.com:madisongarccia/git-practice-thatrealtyguy.git
+  580  git branch feature-madisongarccia
+  581  git branch "feature-madisongarccia"
+  582  git status
+  583  git clone git@github.com:madisongarccia/git-practice-thatrealtyguy.git
+  585  cd git-practice-thatrealtyguy/
+  586  git status
+  587  git branch
+  588  git branch feature-madisongarccia
+  590  git add .
+  591  git commit -m "created my own file"
+  592  git push origin feature-madisongarccia
+  594  cd git-practice-mw/
+  596  git pull
+  598  git log --oneline > gitlog.txt
+  599  history | grep git > history.txt
