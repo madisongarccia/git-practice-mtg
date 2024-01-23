@@ -156,3 +156,9 @@
   596  git pull
   598  git log --oneline > gitlog.txt
   599  history | grep git > history.txt
+  600  git add .
+  601  git commit -m "final history and log"
+  602  git push
+  603  git pull
+  604  git log --oneline > gitlog.txt
+  605  history | grep git > history.txt
